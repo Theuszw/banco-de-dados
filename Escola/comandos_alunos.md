@@ -5,6 +5,8 @@
 
 -- 1ª Digitação (SQL para criar o Banco de dados)
 
+    CREATE DATABASE tecdev_escola_matheus CHARACTER SET utf8mb4;
+
 ```
 <!-- ____________________________________________________________________ -->
 ### Criar tabela cursos
