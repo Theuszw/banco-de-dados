@@ -3,7 +3,7 @@
 ### Criar banco de dados
 ```sql
 
-CREATE DATABASE tecdev_escola_ignacio CHARACTER SET utf8mb4;
+CREATE DATABASE tecdev_escola_matheus CHARACTER SET utf8mb4;
 
 ```
 <!-- ____________________________________________________________________ -->
@@ -207,6 +207,8 @@ INSERT INTO alunos (nome, data_de_nascimento,primeira_nota, segunda_nota, curso_
 ```sql
 
 -- 5ª Digitação (SQL para criar a consulta acima)
+
+SELECT nome, data_de_nascimento FROM alunos WHERE data_de_nascimento < '2009-01-01';
 
 ```
 ![Relatório 1](resultados/relatorio1.jpg)
